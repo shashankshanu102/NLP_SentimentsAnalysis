@@ -21,18 +21,16 @@ Sentiment analysis can also be broadly categorized into two kinds, based on the 
 - Its consists of 14675 customer's reviews.
 
 **Some of the steps performed are as follows:**
-
-- 1.	Text Cleaning:
+1)	Text Cleaning:
  - i) Normalizing case
  - ii) Tokenization
  - iii) Removal of stopwords and punctuations
  - iv) Stemmimg and Lemmatization
-      
-- 2.	Plot a bigram bar graph on the top words 25 stopwords
-- 3.	Find customer concern areas - the top 25 bigrams which includes the below negative words indicating the customer concern areas
+2)	Plot a bigram bar graph on the top words 25 stopwords
+3)	Find customer concern areas - the top 25 bigrams which includes the below negative words indicating the customer concern areas
  'poor', 'waste', 'bad', 'defective', 'disgusting', 'untrusty', 'worst', 'horrible', 'unexpectedly', 'slow'
-- 4.	Plot a bar graph for the top 25 customer concern areas
-- 5.	Plot a bar graph for the top 25 customer concern areas?
+4)	Plot a bar graph for the top 25 customer concern areas
+5)	Plot a bar graph for the top 25 customer concern areas?
 
 **Conclusion:**
 
