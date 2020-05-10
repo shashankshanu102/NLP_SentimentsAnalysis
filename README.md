@@ -17,7 +17,7 @@ Sentiment analysis can also be broadly categorized into two kinds, based on the 
 - 2) Scalar/Degree — Give a score on a predefined scale that ranges from highly positive to highly negative. For example, the figure below shows an analysis of of sentiment based on tweets about various election candidates. In this instance the sentiment is being measured in a scalar form.
 
 **Data Description:**
-- The data was scrapped from Amazon and saved into Dataframe.
+- The data was scrapped from Amazon website and saved into Dataframe.
 - Its consists of 14675 customer's reviews.
 
 **Some of the steps performed are as follows:**
