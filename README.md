@@ -13,8 +13,8 @@ A mix of statistics and linguistics:
 -These algorithms attempt to incorporate grammar principles, various natural language processing techniques and statistics to train the machine to truly ‘understand’ the language.
 
 Sentiment analysis can also be broadly categorized into two kinds, based on the type of output the analysis generates.
--1) Categorical/Polarity— Was that bit of text “positive”, “neutral” or “negative?” In this process, you are trying to label a piece of text as either positive or negative or neutral.
--2) Scalar/Degree — Give a score on a predefined scale that ranges from highly positive to highly negative. For example, the figure below shows an analysis of of sentiment based on tweets about various election candidates. In this instance the sentiment is being measured in a scalar form.
+- 1) Categorical/Polarity— Was that bit of text “positive”, “neutral” or “negative?” In this process, you are trying to label a piece of text as either positive or negative or neutral.
+- 2) Scalar/Degree — Give a score on a predefined scale that ranges from highly positive to highly negative. For example, the figure below shows an analysis of of sentiment based on tweets about various election candidates. In this instance the sentiment is being measured in a scalar form.
 
 **Data Description:**
 - The data was scrapped from Amazon and saved into Dataframe.
