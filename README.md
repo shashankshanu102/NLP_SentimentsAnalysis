@@ -3,24 +3,30 @@
 
 
 **Introduction**
-Sentiment analysis is contextual mining of text which identifies and extracts subjective information in source material, and helping a 
-business to understand the social sentiment of their brand, product or service while monitoring online conversations. However, analysis of
-social media streams is usually restricted to just basic sentiment analysis and count based metrics. This is akin to just scratching the 
-surface and missing out on those high value insights that are waiting to be discovered. So what should a brand do to capture that low 
-hanging fruit?
-With the recent advances in deep learning, the ability of algorithms to analyse text has improved considerably. Creative use of advanced artificial intelligence techniques can be an effective tool for doing in-depth research. We believe it is important to classify incoming customer conversation about a brand based on following lines:
-- 1) Key aspects of a brand’s product and service that customers care about.
-- 2) Users’ underlying intentions and reactions concerning those aspects.
-These basic concepts when used in combination, become a very important tool for analyzing millions of brand conversations with human level 
-accuracy. In the post, we take the example of Uber and demonstrate how this works. 
+**What is Sentiment Analysis?**
+Techopedia defines sentiment analysis as follows:
+- Sentiment analysis is a type of data mining that measures the inclination of people’s opinions through natural language processing (NLP), computational linguistics and text analysis, which are used to extract and analyze subjective information from the Web — mostly social media and similar sources. The analyzed data quantifies the general public’s sentiments or reactions toward certain products, people or ideas and reveal the contextual polarity of the information. Sentiment analysis is also known as opinion mining.
+There are two broad approaches to sentiment analysis.
+Pure statistics:
+-These kinds of algorithms treat texts as Bags of Words (BOW), where the order of words and as such context is ignored. The original text is filtered down to only the words that are thought to carry sentiment. For this blog, I will be attempting this approach. Such models make no use of understanding of a certain language and only uses statistical measures to classify a text.
+A mix of statistics and linguistics:
+-These algorithms attempt to incorporate grammar principles, various natural language processing techniques and statistics to train the machine to truly ‘understand’ the language.
+
+Sentiment analysis can also be broadly categorized into two kinds, based on the type of output the analysis generates.
+-1) Categorical/Polarity— Was that bit of text “positive”, “neutral” or “negative?” In this process, you are trying to label a piece of text as either positive or negative or neutral.
+-2) Scalar/Degree — Give a score on a predefined scale that ranges from highly positive to highly negative. For example, the figure below shows an analysis of of sentiment based on tweets about various election candidates. In this instance the sentiment is being measured in a scalar form.
+
+**Data Description:**
+- The data was scrapped from Amazon and saved into Dataframe.
+- Its consists of 14675 customer's reviews.
 
 **Some of the steps performed are as follows:**
 
 - 1.	Text Cleaning:
-      - i) Normalizing case
-      - ii) Tokenization
-      - iii) Removal of stopwords and punctuations
-      - iv) Stemmimg and Lemmatization
+ - i) Normalizing case
+ - ii) Tokenization
+ - iii) Removal of stopwords and punctuations
+ - iv) Stemmimg and Lemmatization
       
 - 2.	Plot a bigram bar graph on the top words 25 stopwords
 - 3.	Find customer concern areas - the top 25 bigrams which includes the below negative words indicating the customer concern areas
